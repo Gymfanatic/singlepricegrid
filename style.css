@@ -1,0 +1,233 @@
+<<<<<<< HEAD
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: hsl(218, 28%, 90%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.top-banner {
+  text-align: center;
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+  padding: 2rem;
+}
+
+.top-banner .subtitle {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.top-banner .description {
+  margin-top: 1rem;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.left, .right {
+  flex: 1 1 300px;
+  padding: 2rem;
+}
+
+.left {
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+}
+
+.left .price {
+  margin: 1rem 0;
+}
+
+.left .amount {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.left .period {
+  font-size: 1rem;
+  opacity: 0.8;
+  margin-left: 10px;
+}
+
+.left p {
+  margin: 1rem 0;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.right {
+  background-color: hsl(179, 62%, 48%);
+  color: white;
+}
+
+.right ul {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.right li {
+  margin-bottom: 0.8rem;
+  font-size: 0.95rem;
+}
+.guarantee { 
+  color: #38CC8C;
+  font-size: 18px;
+  text-align: centre
+   margin 15px 0;
+=======
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: hsl(218, 28%, 90%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.top-banner {
+  background-color: white;
+  color: #40A7A5;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.top-banner p {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  color:hsl(71, 73%, 54%)
+}
+
+.top-banner .subtitle {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.top-banner .description {
+  margin-top: 1rem;
+  font-size: 1rem;
+  opacity: 0.9;
+  color: #BFC3C6;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.left, .right {
+  flex: 1 1 300px;
+  padding: 2rem;
+}
+
+.left {
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+}
+
+.left .price {
+  margin: 1rem 0;
+}
+
+.left .amount {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.left .period {
+  font-size: 1rem;
+  opacity: 0.8;
+  margin-left: 10px;
+}
+
+.left p {
+  margin: 1rem 0;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.right {
+  background-color: hsl(179, 62%, 48%);
+  color: white;
+}
+
+.right ul {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.right li {
+  margin-bottom: 0.8rem;
+  font-size: 0.95rem;
+}
+.guarantee { 
+  color: #38CC8C;
+  font-size: 18px;
+  text-align: centre
+   margin 15px 0;
+>>>>>>> d07a24f (update project files)
+}
